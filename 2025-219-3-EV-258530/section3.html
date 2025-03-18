@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Science Report Examination Number 0000000</title>
+    <link rel="stylesheet" type="text/css" href="report.css">
+    <script src="report.js"></script>
+</head>
+
+<body>
+ <!--Header Section--->
+<div class="header">	
+	<div class="header-img">
+	</div>
+
+</div>
+ <!--End Of Header Section -->
+	
+	<div id="navcontainer">
+   
+		<ul id="navlist">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Section1.html">1. Meeting the Brief</a></li>
+			<li><a href="Section2.html">2. Investigation</a></li>
+			<li><a href="Section3.html">3. Plan and Design</a></li>
+			<li><a href="Section4.html">4. Create</a></li>
+			<li><a href="Section5.html">5. Evaluation</a></li>
+			<li><a href="Section6.html">6. References</a></li>
+			<br/>
+			<br/>
+			<li><a href="Section7.html">7. Word Count</a></li>
+		</ul>
+	</div>
+
+    <!--Main Section -->
+    <section id="main">
+		<h1 id="title">Computer Science Project 2024</h1>
+		<h1 id="title">Name of Project</h1>
+		<h1 id="title">Exam Number:0000000000</h1>
+		<div id="pheading">
+			<h1>3 Plan and Design (approximately 400 words)</h1>
+			 
+<h3>Clear description of project</h3>
+<!--   <p>
+This project consists of a data graphing menu in the python shell that processes the csv file and user commands locally <br>
+and a HTML webpage that reads in data that was created with user input in python and sent to firebase to be accessed by javascript <br>
+embedded into the HTML. The user inputs are taken from the HTML, sent back to firebase and then sent to python to run statistics on it <br>
+and present the findings to the user on a chosen graph. The graph option in the first choice will open up a menu tree to select different types <br>of graph based on the data in <strong>Bird_strikes.csv</strong> eg, top n breeds of bird to be involved in a strike or the top n costliest<br> strikes. The data is processed and cleaned into lists using pandas and then graphed with matplotlib
+</p>
+<p>
+The bird maker option (html) begins in the python shell where the user must input the amount of breeds they want to choose from when making <br>
+their bird. That value is stored as a variable and sent to firebase and then the .js file linked to the html page picks it up and adds those <br>
+breeds to the dropdown menu on the webpage. The user inputs a name, a breed and a size for their bird. That data is taken from the webpage by <br>
+the .js file and transferred into firebase in the same format as a feedback form. That is then picked up by the python code so it can store the data in variables and calculate different chosen statistics (probabilty the bird will be invloved in a strike, the average cost for their bird etc) 
+</p>    -->
+<h4>Basic Requirements</h4>
+<blockquote>
+<a>
+Static graph appearance on html webpage. All graphs are pregenerated with matplotlib library and saved as .pngs using the save.
+</a>
+<a>
+ Code runs in python to generate graphs and each can be individually generated through a menu tree in the shell
+</a>
+</blockquote>
+<h4>Advanced Requirements</h4>
+<blockquote>
+<a>
+Multi-page layout in html. One page for the form, allowing users to select details and submit a bird of their creation (incl string: name breed and size, integer:  boolean:iscloudy?).
+ This data is then collected and sent to firebase for it to be accessed in python for statistics to be run on it. 
+ The chance it will be in a strike is then graphed with pygal and displayed on the webpage along with previously created birds in the database (referred to as bird maker). 
+ The other page then contains graphs pertaining to the dataset as a whole. </a>
+ <a>
+ Some may be filtered with a textbox allowing the user to input the number of bird breeds they wish to see from an ordered list of the most common breeds in strikes for example.
+ <strong>NB</strong> python code (html_interface.py) must be running before and during html <u>at all times</u>. 
+ This is because of the event listener built into the python code that checks for updates in the database and as a result is responsible for updating the graphs when a new value for n is inputted.
+</a>
+</blockquote>
+
+
+<h4>Flowcharts</h4>
+<div style="display: flex; gap: 20px; justify-content: center;">
+	<div style="text-align: center; margin-bottom: 20px;">
+		<a style="display: block; font-weight: bold; margin-bottom: 5px;">BR</a>
+		<img src="images/BR3_Flowchart.jpg" style="width:500px;">
+	</div>
+	<div style="text-align: center; margin-bottom: 20px;">
+		<a style="display: block; font-weight: bold; margin-bottom: 5px;">AR</a>
+		<!--<img src="images/archdiagram_ar2.png" style="width:500px;">-->
+	</div>
+</div>
+
+<h4>Architecture Diagrams (for ARs, BRs involve only python)</h4>
+<div style="display: flex; gap: 20px; justify-content: center;">
+	<div style="text-align: center; margin-bottom: 20px;">
+		<a style="display: block; font-weight: bold; margin-bottom: 5px;">AR1</a>
+		<img src="images/archdiagram_ar1.png" style="width:500px;">
+	</div>
+	<div style="text-align: center; margin-bottom: 20px;">
+		<a style="display: block; font-weight: bold; margin-bottom: 5px;">AR2</a>
+		<img src="images/archdiagram_ar2.png" style="width:500px;">
+	</div>
+</div>
+<h3>Software</h3>
+<p>
+IDEs (Thonny and Notepad++), code written in those IDEs (python, javascript and html), python modules (matplotlib and pandas) <br>
+firebase (realtime database), html webpage
+</p>
+    </section>
+    <!--End Of Main Section -->
+
+    <!--Footer Section -->
+    <section id="footer">
+        &copy; 258530
+    </section>
+    <!--End Of Footer Section -->
+
+</body>
+
+</html>

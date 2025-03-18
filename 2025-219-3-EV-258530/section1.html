@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Science Report Examination Number 258530</title>
+    <link rel="stylesheet" type="text/css" href="report.css">
+    <script src="report.js"></script>
+</head>
+
+<body>
+ <!--Header Section--->
+<div class="header">	
+	<div class="header-img">
+	</div>
+
+</div>
+ <!--End Of Header Section -->
+	
+	<div id="navcontainer">
+   
+		<ul id="navlist">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Section1.html">1. Meeting the Brief</a></li>
+			<li><a href="Section2.html">2. Investigation</a></li>
+			<li><a href="Section3.html">3. Plan and Design</a></li>
+			<li><a href="Section4.html">4. Create</a></li>
+			<li><a href="Section5.html">5. Evaluation</a></li>
+			<li><a href="Section6.html">6. References</a></li>
+			<br/>
+			<br/>
+			<li><a href="Section7.html">7. Word Count</a></li>
+			
+			
+
+		</ul>
+	</div>
+
+    <!--Main Section -->
+    <section id="main">
+		<h1 id="title">Computer Science Project 2024</h1>
+		<h1 id="title">Is it a Bird or is it a Plane?</h1>
+		<h1 id="title">Exam Number: 258530</h1>
+		<div id="pheading">
+			<h1>1 Meeting the Brief (Max 400 words)</h1>
+			
+<h4>Video</h4>
+<video width="320" height="240" controls>
+<source src="Videos/projectvideo.mp4" type="video/mp4">
+</video>
+<p>Demonstrate how you have achieved each of the requirements, this is more important than showing the overall system.<br> 
+If you have time at the end, show the entire system.<br>
+
+Your ‘what-if’ questions, that will be examined by your model, can be explained in this section.</p>
+
+<h4>How I met the Basic Requirements</h4>
+<p><strong><u>BR1: Collect and prepare the data</u></strong><br/>
+<strong>a)</strong>Retrieved data from Kaggle, which had been taken from the FAA<br/>
+<strong>b)</strong>Read in CSV file and cleaned it to store just the breed names and the total strikes for each breed in a separate CSV file
+</p>
+
+<p><strong><u>BR2: Data analytics and visualisation</u></strong><br/>
+<strong>a)</strong>Retrieved data from Kaggle, which had been taken from the FAA<br>
+<strong>b)</strong>Graphs are labelled in MatPlotLib on X and Y axes and titled for bar charts and each segment named in the case of a pie chart
+<strong>c)</strong>Ordered lists are used so that graphs can be made (ie 2 lists like strikes and breeds sharing index positions to make access simple with a for loop)
+</p>
+
+<p><strong><u>BR3: Create a basic interactive information system interface</u></strong><br/>
+<strong>a)</strong>HTML Page <br>
+<strong>b)</strong>graphs are created in python and displayed with Matplotlib. These are saved as screenshots and displayed as static images on the webpage
+</p>
+<br>
+<h4>How I met the Advanced Requirements</h4>
+<p><strong><u>AR1: Interactive Data</u></strong><br/>
+AR HTML Page contains text boxes to input values that get sent to python to update the graphs and thus filters them. This allows direct user interaction with the data visualisations. (Also SVG graph for strikes per state allows users to hover over the data to see exact values) 
+</p>
+
+<p><strong><u>AR2: Form/Poll</u></strong><br/>
+<strong>Situation Designer:</strong> Allows users to fill out and submit a form in which they create a bird (choose its name, breed and size ) and choose the conditions on a particular day. 
+<strong>a)</strong> The name, size and breed are taken as a string, the weather is taken as a boolean (cloudy/not) and operating airlines on that day (list) <br>
+<strong>b)</strong>Data is stored in a realtime database (Firebase) by a javascript function triggered by the submit button<br>
+<strong>c)</strong>All previous scenarios are displayed on the webpage along with their respective probabilities of occuring based on the datase
+</p>
+
+<p><strong><u>AR3: Reccomendation system</u></strong><br/>
+Details about various airlines is shown on webpage and reccomends certain ones based on safety
+</p>
+<p>A brief written description with images demonstrating how your artefact meets the requirements.<br>
+Information on how to upload a video to your report template is shown on the previous report template document in Google Classroom.</p>
+		</div>
+    </section>
+    <!--End Of Main Section -->
+
+    <!--Footer Section -->
+    <section id="footer">
+        &copy; 258530
+    </section>
+    <!--End Of Footer Section -->
+
+</body>
+
+</html>

@@ -1,0 +1,277 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Science Report Examination Number 0000000</title>
+    <link rel="stylesheet" type="text/css" href="report.css">
+    <script src="report.js"></script>
+</head>
+
+<body>
+ <!--Header Section--->
+<div class="header">	
+	<div class="header-img">
+	</div>
+
+</div>
+ <!--End Of Header Section -->
+	
+	<div id="navcontainer">
+
+		<ul id="navlist">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Section1.html">1. Meeting the Brief</a></li>
+			<li><a href="Section2.html">2. Investigation</a></li>
+			<li><a href="Section3.html">3. Plan and Design</a></li>
+			<li><a href="Section4.html">4. Create</a></li>
+			<li><a href="Section5.html">5. Evaluation</a></li>
+			<li><a href="Section6.html">6. References</a></li>
+			<br/>
+			<br/>
+			<li><a href="Section7.html">7. Word Count</a></li>
+			
+
+		</ul>
+	</div>
+
+    <!--Main Section -->
+    <section id="main">
+		<h1 id="title">Computer Science Project 2024</h1>
+		<h1 id="title">Name of Project</h1>
+		<h1 id="title">Exam Number:0000000000</h1>
+		<div id="pheading">
+			<h1>4 Create (approximately 850 words)</h1>
+			
+<table class="center" border="1">
+  <tr>
+    <th>Week</th>
+    <th>Detail</th>
+  </tr>
+  <tr>
+    <td>Week 1</td>
+    <td>
+      <strong><u>Research</u></strong><br/><br/>
+      <ol>
+        <li>
+          <strong>Brainstorms</strong> - What type of dataset I would like to use that will fit in with the project<br/><br/>
+          
+        </li>
+        <li>
+          <strong>Further Brainstorming on Bird Data</strong> - How can I use this dataset to make the best project I can <br/><br/>
+          <strong>Ideas:</strong><br/><br/>
+          <p style="margin-left: 25px;">
+            <strong>Altitude:</strong> Is the altitude of the airport proportional to the amount of bird collisions?<br/><br/>
+            <strong>Make/Model of Aircraft:</strong> Do certain makes or models have more collisions? (Quieter = less?)<br/><br/>
+            <strong>Radar systems:</strong> Do airports with different radar systems crash into fewer birds?<br/><br/>
+            <strong>Create a bird:</strong> Use a feedback form layout in HTML for the user to pick the breed,
+            airport, plane make/model and send it to Thonny through Firebase to find the chance that there will be
+            a collision according to the data <br/><br/>
+            <strong>Pilots:</strong> Do we need better radar? Are there fewer crashes if the pilot knew that the bird was there?<br/><br/>
+          </p>
+        </li>
+      </ol>
+      <strong><u>Data Testing</u></strong><br/><br/>
+      <p style="margin-left: 25px;">
+        <strong>Python</strong> - Simple data cleaning test to ascertain quality of dataset (happy)<br/><br/>
+        <strong>></strong> Will double as code to aid with bird_maker later on <strong>(finds most common breeds & sizes when adapted slightly)</strong><br/><br/>
+        <strong>- Also</strong> pie chart made to show operational code <strong>(</strong>totals strikes for each species and adds them to a list by way
+        of making a temporary list <strong>(temp_bird_data)</strong> and looping through the dataframes I made from the original .csv 
+        to add up the number of strikes there were for each breed.<strong>)</strong>
+      </p><br/>
+    </td>
+  </tr>
+  <tr>
+    <td>Week 2</td>
+    <td>
+      <ol>
+        <li>
+          <strong><u>Iteration 2 Done</u></strong><br/><br/>
+          - Plots the top n breeds against the total strikes for each one<br/><br/>
+        </li>
+        <li>
+          <strong><u>Project layout decided</u></strong><br/><br/>
+          - Core in Python shell, menu trees to pick graphs and initiate bird maker<br/><br/>
+        </li>
+        <li>
+          <strong><u>Plan and design tab filled out</u></strong><br/><br/>
+        </li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>Week 3</td>
+    <td>
+      <ul>
+        <li>Finalize dataset selection<br/><br/></li>
+        <li>Set up Firebase for data storage<br/><br/></li>
+        <li>Initial Python script to pull data into Firebase<br/><br/></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Week 4</td>
+    <td>
+      <ul>
+        <li>Clean state data (remove nulls & repeats)<br/><br/></li>
+        <li>Find the strikes per state<br/><br/></li>
+        <li>Create if statement menu and add in code to access the first graph<br/><br/></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Week 5</td>
+    <td>
+      <ul>
+        <li>Add 2nd graph code to existing menu<br/><br/></li>
+        <li>Use top n birds function to design top n most expensive strikes function<br/><br/></li>
+        <li>Make the 3rd graph based on the list that outputs<br/><br/></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Week 6</td>
+    <td>
+      <ul>
+        <li>Decide how to make the graphs interactive<br/><br/></li>
+        <li>JS retrieves n value from HTML and sends it to Firebase, Python then accesses Firebase to process the n values<br/><br/></li>
+        <li>Put the first text box and .png on HTML<br/><br/></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Week 7</td>
+    <td>
+      <ul>
+        <li>Connect JS to Firebase -> send n values taken from text box<br/><br/></li>
+        <li>Connect Python to Firebase -> Retrieve n values from Firebase to use in code<br/><br/></li>
+        <li>Design & code custom event listener that regenerates the saved png of each graph<br/><br/></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Week 8</td>
+    <td>
+      <ul>
+        <li>Refresh png after a delay -> allows Python to run the new n value from Firebase<br/><br/></li>
+        <li>Get the 2nd n value (for the cost graph, the 1st was for the breed graph)<br/><br/></li>
+        <li>Separate the breed n values and the cost n values into different nodes in Firebase<br/><br/></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Week 9</td>
+    <td>
+      <ul>
+        <li>Re-make Firebase data flattening code in Python to account for new node organization<br/><br/></li>
+        <li>Run cost n values through their graph code in Python, like the breed n values<br/><br/></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Week 10</td>
+    <td>
+      <ul>
+        <li>Create form for AR2 (bird situation maker)<br/><br/></li>
+        <li>Decide on data types based on .csv (string, list, boolean)<br/><br/></li>
+        <li>Display that data on the table from the Firebase database<br/><br/></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Week 11</td>
+    <td>
+      <ul>
+        <li>Design recommendation system<br/><br/></li>
+        <li>Build JSON file in Python to use in JS<br/><br/></li>
+        <li>Recommend specific airports to each form filled out<br/><br/></li>
+        <li>Display the recommendations in a separate table with names acting as foreign keys<br/><br/></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<h3>Unit Testing</h3>
+<p>You should explain and detail some unit testing which has taken place during the development process.<br> 
+This is testing of a function within your
+code - invalid values, extreme values etc.<br> 
+Maybe have a test table along with it.</p>
+<p>
+
+</p>
+
+<strong></strong>
+<br>
+
+<h3>Problems Encountered</h3>
+<blockquote>
+	
+	<a>In Iteration 2 (I2) of my python code to clean and process the data, I encountered an issue with list indexing.
+	This happened in my function <strong>topnbirds()</strong> in which my plan was to print out the top n most common
+	birds in the dataset (lists already made and cleaned for use in I1). I created a temporary list<strong>(temp_s)</strong>
+	to store the unsorted list of strike numbers (important that this list "s" remains unsorted to make sure each on corresponds
+	to the same index number as the breed it represents in my 2 lists (lists are called "b" and "s" within the function)). 
+	</a>
+	<a>I then start a loop of length <strong>n</strong> that finds the largest element in <strong>temp_s</strong>, stores it 
+	in a list <strong>(cmmn_lst)</strong> and then removes the value from <strong>temp_s</strong>. This way, by using <strong>b[s.index(m)]</strong>
+	it will get the index position of the max value of <strong>temp_s</strong> and print the value of that index position in the list
+	(essentially printing the "x"th common bird species, where it stops at the value of <strong>n</strong> that the user inputted). 
+	This failed to work however because according to the error message, the value m <strong>(max value in temp_s)</strong> did not exist
+	in the list <strong>s</strong>
+	</a>
+	
+</blockquote>
+
+<blockquote>
+	
+	<a>
+	My first port of call to iron this out was to run a quick check to see if <strong>m</strong> was in the main list <strong>s</strong> 
+	at any point during the loop. Of course it outputted "no" each time, proving that I was trying to acces a list element that wasn't there at all each time.
+	This confused me greatly because in my mind, the value of <strong>m</strong> was taken from an exact copy of this list so therefore 
+	it should be in the main list <strong>s</strong>. I then thought that if I made that check before the .append and .remove functions, I 
+	might see something different.
+	</a>
+	<img src="images/temp_s_check.png" style="width:400px;">
+
+</blockquote>
+
+<blockquote>
+	<img src="images/temp_s_check2.png" style="width:400px;">
+	<a>
+	Lo and behold, my check outputs yes and successfully prints the top 3 most common breed names (element in list b of the same index position 
+	as the nth max value in the list s). But when I run my code, it does technically as intended (print the top n most common breeds) but there was something that I didn't foresee that 
+	came up in the shell. In the dataset there are multiple entries where the breed was listed as <strong>"Unknown bird - small" or 'Unknown bird - large'</strong>
+	etc. Unfortunately most of the top breeds were unknown so they had to be cleaned out to give me names of breeds I could use. My thinking was 
+	that I could use a while loop instead of the for loop I was using and make a dedicated count variable. By making this variable, it 
+	grants me the opportunity to add or take away loop iterations based on the incoming data ie if the breed is one of the unknowns, it
+	won't append to the list or increment my count variable to make sure that n elements are in the list at the end.
+	</a>
+	<br>
+</blockquote>
+<blockquote>
+	<a>
+		<strong>Working Code         </strong>
+	</a>
+	
+	<img src="images/temp_s_check3.png" style="width:900px;">
+</blockquote>
+
+
+
+<h3>Code Explained</h3>
+<p>An explanation of a piece of code or algorithm that was important in the development of the project. Screenshot it and explain how it works.<br> 
+Again you could use multiple snippets of code.<br>
+<br>
+
+Try to pick something that is important to the system. </p>
+		</div>
+    </section>
+    <!--End Of Main Section -->
+
+    <!--Footer Section -->
+    <section id="footer">
+        &copy; 258530
+    </section>
+    <!--End Of Footer Section -->
+
+</body>
+
+</html>

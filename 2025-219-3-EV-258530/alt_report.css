@@ -1,0 +1,118 @@
+/* General Reset */
+* {
+    font-family: 'Garamond', serif; /* Elegant and minimalist font */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #f5f5dc; /* Light tan background */
+    color: #4a4a4a; /* Soft dark gray text for readability */
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+.header {
+    height: 70px;
+    padding: 15px 20px;
+    background: #e3d9c7; /* Soft tan with a slight contrast for the header */
+    color: #4a4a4a; /* Matching text color for the header */
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #d6cbb8; /* Subtle border for separation */
+}
+
+/* Navigation Menu */
+#navcontainer ul {
+    margin: 0;
+    padding: 10px 0;
+    background: #f9f4e7; /* Slightly lighter tan for navigation */
+    list-style-type: none;
+    text-align: center;
+    border-top: 1px solid #d6cbb8;
+    border-bottom: 1px solid #d6cbb8;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: #6b5b53; /* Warm, soft brown for links */
+    padding: 10px 20px;
+    font-size: 1.1em;
+}
+
+li a:hover {
+    background-color: #e3d9c7; /* Light tan highlight on hover */
+    color: #4a4a4a; /* Darker text on hover */
+}
+
+/* Main Content Area */
+#main {
+    padding: 20px;
+    background: #ffffff; /* White background for content sections */
+    border: 1px solid #d6cbb8; /* Subtle border around content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px; /* Rounded corners for modern aesthetic */
+}
+
+/* Footer Styling */
+#footer {
+    background-color: #e3d9c7; /* Soft tan background */
+    padding: 10px;
+    text-align: center;
+    color: #4a4a4a; /* Consistent text color */
+    font-size: 0.9em;
+    border-top: 1px solid #d6cbb8;
+    margin-top: 20px;
+}
+
+/* Titles and Headings */
+#title, #pheading {
+    color: #4a4a4a; /* Dark gray for headings */
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Intro Text */
+.intro {
+    font-size: 1.2em;
+    color: #6b5b53; /* Warm brown for intro text */
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+#report-table {
+    width: 100%;
+    border: 1px solid #d6cbb8; /* Subtle borders for the table */
+    padding: 10px;
+    background-color: #f9f4e7; /* Light tan for table background */
+    color: #4a4a4a; /* Consistent dark gray text */
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#report-table td, #report-table th {
+    border: 1px solid #d6cbb8; /* Subtle cell borders */
+    padding: 10px;
+    text-align: left;
+    font-size: 1em;
+}
+
+#table-header {
+    background-color: #e3d9c7; /* Slightly darker tan for table headers */
+    color: #4a4a4a; /* Matching text color */
+    font-weight: bold;
+}
+
