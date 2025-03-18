@@ -1,0 +1,131 @@
+<html> 
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Science Report Examination Number 0000000</title>
+    <link rel="stylesheet" type="text/css" href="report.css">
+    <script src="report.js"></script>
+</head>
+
+<body>
+ <!--Header Section--->
+<div class="header">    
+    <div class="header-img">
+    </div>
+</div>
+ <!--End Of Header Section -->
+    
+    <div id="navcontainer">
+        <ul id="navlist">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="brhome.html">BR3</a></li>
+            <li><a href="graphing.html">AR1</a></li>
+            <li><a href="bird_maker.html">AR2 & AR3</a></li>
+        </ul>
+    </div>
+    
+    <!--Main Section -->
+    <section id="main">
+        <h1 id="title">Computer Science Project 2025</h1>
+        <h1 id="title">Name of Project</h1>
+        <h1 id="title">Exam Number:258530</h1>
+        <div id="pheading"></div>
+        
+        <div class="fcon">
+            <form>
+                <center>
+                    <!--Input box for bird name -->
+                    <label for="name">User Name</label>
+                    <input type="text" id="name" name="name" placeholder="TYPE HERE...">
+                    <br/><br/>
+                    
+                    <!--Drop Down menu-->
+                    <label for="breed">Breed:</label>
+                    <select id="breed">
+                        <option value="choice">Select Breed</option>
+                        <option value="European starling">European Starling</option>
+                        <option value="Ring_necked pheasant">Ring-Necked Pheasant</option>
+                        <option value="Mountain chickadee">Mountain Chickadee</option>
+                        <option value="Canada goose">Canada Goose</option>
+                        <option value="Barn swallow">Barn Swallow</option>
+                    </select>
+                    
+                    <label for="size">Size:</label>
+                    <select id="size">
+                        <option value="choice">Select Size</option>
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                    </select>
+                    <br/><br/>
+                    
+                    <p>Choose the airlines that you would consider flying with:</p>
+                    <input type="checkbox" id="al1" name="al1" value="SOUTHWEST AIRLINES">
+                    <label for="al1">Southwest Airlines</label>
+                    <input type="checkbox" id="al2" name="al2" value="BUSINESS">
+                    <label for="al2">Business</label>
+                    <input type="checkbox" id="al3" name="al3" value="AMERICAN AIRLINES">
+                    <label for="al3">American Airlines</label>
+                    <input type="checkbox" id="al4" name="al4" value="DELTA AIR LINES">
+                    <label for="al4">Delta Airlines</label>
+                    <input type="checkbox" id="al5" name="al5" value="AMERICAN EAGLE AIRLINES">
+                    <label for="al5">American Eagle Airlines</label><br><br>
+                    
+                    <label for="cloud">Is the day you are choosing to fly on cloudy?:</label>
+                    <select id="cloud">
+                        <option value="choice">Select Yes/No</option>
+                        <option value="True">Yes</option>
+                        <option value="False">No</option>
+                    </select><br>
+                    <button type="button" id="sendToFb">Submit Data</button>
+                </center>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>User Name </th>
+                            <th>Breed</th>
+                            <th>Size</th>
+                            <th>Airlines</th>
+                            <th>Clouds</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody id="ar2data"></tbody>
+                </table>
+                
+                <br>
+                <center>
+                \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+                </center>
+				<br>
+            </form>
+        </div>
+    </section>
+    
+    <title>AR3</title>
+	<blockquote>
+	
+				<table>
+                    <thead>
+                        <tr>
+                            <th>User Name </th>
+                            <th>Safety Recommendations</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ar3data"></tbody>
+                </table>
+	</blockquote>
+       
+    
+    
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase.js"></script>
+<script src="bird_maker.js"></script>
+    
+    <!--Footer Section -->
+    <section id="footer">
+        &copy; 258530
+    </section>
+    <!--End Of Footer Section -->
+</body>
+</html>

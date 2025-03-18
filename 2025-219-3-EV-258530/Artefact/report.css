@@ -1,0 +1,170 @@
+* {
+    font-family: 'Garamond', sans-serif; /* Professional font */
+}
+
+.header {
+    height: 100px;
+    padding: 20px;
+    margin-top: 25px;
+    background: #003366; /* Navy blue */
+    width: 100%;
+}
+
+.header-img {
+    float: left;
+}
+
+#navcontainer ul {
+    padding: 25px;
+    margin: 0;
+    background: #003366; /* Navy blue */
+    list-style-type: none;
+    color: white;
+    width: 100%;
+    font: 20px 'Garamond', sans-serif;
+    text-align: center;
+}
+
+li { 
+    display: inline; 
+}
+
+li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 20px;
+    border-right: 1px solid white;
+}
+
+li a:hover {
+    background-color: #00509E; /* Lightened navy blue */
+    color: white;
+}
+
+#main {
+    min-height: 600px;
+}
+
+#footer {
+    background-color: #003366; /* Navy blue */
+    height: 40px;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#title {
+    color: #003366; /* Navy blue */
+    text-align: center;
+}
+
+.intro {
+    font-size: 18px;
+    color: #333333; /* Neutral dark gray */
+}
+
+#pheading {
+    color: #222222; /* Slightly darker black */
+    text-align: center;
+}
+
+#report-table {
+    width: 800px;
+    border: 2px solid #003366; /* Blue border for the table, similar to header */
+    padding: 20px;
+    font-size: 18px;
+    color: #222222; /* Slightly darker black */
+    border-collapse: collapse; /* Ensures borders of table cells are merged */
+}
+
+#report-table td, #report-table th {
+    border: 1px solid #003366; /* Blue border for table cells */
+    padding: 10px;
+}
+
+#table-header {
+    background-color: #C1E1FF; /* Light professional blue */
+    color: #003366; /* Navy blue for contrast */
+}
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #003366; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+blockquote {
+    padding: 10px;
+    box-shadow: 
+        0 0 0 2px white, 
+        0.3em 0.3em 1em rgba(0, 51, 102, 0.6); 
+	display: flex;
+    align-items: center;
+}
+
+blockquote img {
+    margin-right: 20px; /* Adds some space between the image and text */
+}
+
+blockquote a {
+    max-width: 600px; /* Limit the text width to keep it readable */
+}
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Removes gaps between table cells */
+    margin: 20px 0; /* Adds space above and below the table */
+    font-family: Arial, sans-serif; /* Sets the font for the table */
+}
+
+/* Table header styling */
+table th {
+    background-color: #003366; /* Dark blue background for the header */
+    color: white; /* White text for header */
+    text-align: left; /* Aligns text to the left */
+    padding: 12px 15px; /* Adds padding around the header cells */
+    font-size: 16px; /* Increases the font size */
+}
+
+/* Table body styling */
+table td {
+    padding: 10px 15px; /* Adds padding around the table cells */
+    text-align: left; /* Aligns text to the left */
+    border-bottom: 1px solid #ddd; /* Adds a light border between rows */
+}
+
+/* Alternating row colors */
+table tr:nth-child(even) {
+    background-color: #f0f0f0; /* Light grey background for even rows */
+}
+
+/* Hover effect for rows */
+table tr:hover {
+    background-color: #cce0ff; /* Light blue background on hover */
+}
+
+/* Table borders (optional) */
+table, th, td {
+    border: 1px solid #003366; /* Dark blue borders for the table */
+}
+
+/* Styling for the empty <tbody> */
+#data {
+    font-style: italic; /* Optional: makes empty rows stand out */
+    color: #888; /* Grey color for empty rows */
+}
+
